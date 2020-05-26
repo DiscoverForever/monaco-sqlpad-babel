@@ -1,14 +1,28 @@
 {
   "name": "monaco",
   "version": "1.0.0",
-  "description": "",
+  "description": "monaco-sqlpad",
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "cross-env rm -rf dist",
     "build": "babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "vue",
+    "monaco-sqlpad",
+    "monaco-editor",
+    "sql",
+    "sql编辑器",
+    "vue",
+    "monaco",
+    "vscode"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DiscoverForever/monaco-sqlpad-babel"
+  },
+  "author": "yueyangtang@163.com",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
