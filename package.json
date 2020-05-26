@@ -1,6 +1,6 @@
 {
   "name": "monaco",
-  "version": "1.0.0",
+  "version": "1.0.45",
   "description": "monaco-sqlpad",
   "main": "dist/index.js",
   "scripts": {
