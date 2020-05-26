@@ -1,0 +1,25 @@
+{
+  "name": "monaco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "prebuild": "cross-env rm -rf dist",
+    "build": "babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-transform-runtime": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-runtime": "^6.26.0",
+    "cross-env": "^7.0.2"
+  },
+  "dependencies": {
+    "monaco-editor": "^0.20.0",
+    "vue": "^2.6.11"
+  }
+}
